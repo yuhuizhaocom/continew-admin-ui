@@ -23,9 +23,6 @@
           </div>
         </a-grid-item>
         <a-grid-item class="panel" :span="24">
-          <Carousel />
-        </a-grid-item>
-        <a-grid-item class="panel" :span="24">
           <Notice />
         </a-grid-item>
         <a-grid-item class="panel" :span="24">
@@ -41,7 +38,6 @@ import Welcome from './components/Welcome.vue'
 import Project from './components/Project.vue'
 import LatestActivity from './components/LatestActivity.vue'
 import QuickOperation from './components/QuickOperation.vue'
-import Carousel from './components/Carousel.vue'
 import Notice from './components/Notice.vue'
 import Docs from './components/Docs.vue'
 
